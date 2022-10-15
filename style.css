@@ -1,0 +1,13 @@
+#emptyTodo {
+    display: block;
+}
+.delete {
+    color: red;
+}
+
+.starsGray {
+    color: lightgray;
+}
+.starsGold {
+    color: gold;
+}
