@@ -10,13 +10,19 @@
     <title>Todo List</title>
 </head>
 <body>
-    <form id="todoForm">
-        <input required id="todoValue" type="text" placeholder="What to do ?">
-        <input type="submit" id="btnAdd" value="Add">
-    </form>
+    <div class="main">
+        <div class="container">
+            <form id="todoForm">
+                <input required id="todoValue" type="text" placeholder="What to do ?">
+                <input type="submit" id="btnAdd" value="Add">
+            </form>
 
-    <div id="emptyTodo">Nothing to do...</div>
+            <div id="emptyTodo">
+                <h1>Nothing to do...</h1> 
+            </div>
 
-    <ul id="todoList"></ul>
+            <ul id="todoList"></ul>
+        </div>
+    </div>
 </body>
 </html>
